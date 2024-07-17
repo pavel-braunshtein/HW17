@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct CellZeroDisplayModel {
+    
+    var title: String
+}

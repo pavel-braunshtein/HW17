@@ -13,6 +13,21 @@
 		E92B3AC02C47F542006A25C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E92B3ABF2C47F542006A25C8 /* Base */; };
 		E92B3AC22C47F544006A25C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92B3AC12C47F544006A25C8 /* Assets.xcassets */; };
 		E92B3AC52C47F544006A25C8 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E92B3AC42C47F544006A25C8 /* Base */; };
+		E92B3AD12C47F693006A25C8 /* CellOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = E92B3AD02C47F693006A25C8 /* CellOne.xib */; };
+		E92B3AD32C47F6A3006A25C8 /* CellTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = E92B3AD22C47F6A3006A25C8 /* CellTwo.xib */; };
+		E92B3AD52C47F6B5006A25C8 /* CellZero.xib in Resources */ = {isa = PBXBuildFile; fileRef = E92B3AD42C47F6B5006A25C8 /* CellZero.xib */; };
+		E92B3AD72C47F710006A25C8 /* SectionAdapterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3AD62C47F710006A25C8 /* SectionAdapterInput.swift */; };
+		E92B3AD92C47F75F006A25C8 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3AD82C47F75F006A25C8 /* TableViewAdapter.swift */; };
+		E92B3ADB2C47F782006A25C8 /* TableViewAdapterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3ADA2C47F782006A25C8 /* TableViewAdapterInput.swift */; };
+		E92B3ADD2C47F7B5006A25C8 /* CellOneViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3ADC2C47F7B5006A25C8 /* CellOneViewCell.swift */; };
+		E92B3ADF2C47F7C8006A25C8 /* CellTwoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3ADE2C47F7C8006A25C8 /* CellTwoViewCell.swift */; };
+		E92B3AE12C47F7DA006A25C8 /* CellZeroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3AE02C47F7DA006A25C8 /* CellZeroViewCell.swift */; };
+		E92B3AE32C47F7F6006A25C8 /* OneSectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3AE22C47F7F6006A25C8 /* OneSectionAdapter.swift */; };
+		E92B3AE52C47F806006A25C8 /* TwoSectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3AE42C47F806006A25C8 /* TwoSectionAdapter.swift */; };
+		E92B3AE72C47F820006A25C8 /* ZeroSectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3AE62C47F820006A25C8 /* ZeroSectionAdapter.swift */; };
+		E92B3AEA2C47F8FE006A25C8 /* CellOneDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3AE92C47F8FE006A25C8 /* CellOneDisplayModel.swift */; };
+		E92B3AEC2C47F90E006A25C8 /* CellTwoDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3AEB2C47F90E006A25C8 /* CellTwoDisplayModel.swift */; };
+		E92B3AEE2C47F920006A25C8 /* CellZeroDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92B3AED2C47F920006A25C8 /* CellZeroDisplayModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		E92B3AC12C47F544006A25C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92B3AC42C47F544006A25C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E92B3AC62C47F544006A25C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E92B3AD02C47F693006A25C8 /* CellOne.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellOne.xib; sourceTree = "<group>"; };
+		E92B3AD22C47F6A3006A25C8 /* CellTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTwo.xib; sourceTree = "<group>"; };
+		E92B3AD42C47F6B5006A25C8 /* CellZero.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellZero.xib; sourceTree = "<group>"; };
+		E92B3AD62C47F710006A25C8 /* SectionAdapterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionAdapterInput.swift; sourceTree = "<group>"; };
+		E92B3AD82C47F75F006A25C8 /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
+		E92B3ADA2C47F782006A25C8 /* TableViewAdapterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapterInput.swift; sourceTree = "<group>"; };
+		E92B3ADC2C47F7B5006A25C8 /* CellOneViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellOneViewCell.swift; sourceTree = "<group>"; };
+		E92B3ADE2C47F7C8006A25C8 /* CellTwoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTwoViewCell.swift; sourceTree = "<group>"; };
+		E92B3AE02C47F7DA006A25C8 /* CellZeroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellZeroViewCell.swift; sourceTree = "<group>"; };
+		E92B3AE22C47F7F6006A25C8 /* OneSectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSectionAdapter.swift; sourceTree = "<group>"; };
+		E92B3AE42C47F806006A25C8 /* TwoSectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSectionAdapter.swift; sourceTree = "<group>"; };
+		E92B3AE62C47F820006A25C8 /* ZeroSectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroSectionAdapter.swift; sourceTree = "<group>"; };
+		E92B3AE92C47F8FE006A25C8 /* CellOneDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellOneDisplayModel.swift; sourceTree = "<group>"; };
+		E92B3AEB2C47F90E006A25C8 /* CellTwoDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTwoDisplayModel.swift; sourceTree = "<group>"; };
+		E92B3AED2C47F920006A25C8 /* CellZeroDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellZeroDisplayModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +88,68 @@
 			children = (
 				E92B3AB82C47F542006A25C8 /* AppDelegate.swift */,
 				E92B3ABA2C47F542006A25C8 /* SceneDelegate.swift */,
-				E92B3ABC2C47F542006A25C8 /* ViewController.swift */,
+				E92B3AE82C47F8E2006A25C8 /* Models */,
+				E92B3ACF2C47F651006A25C8 /* Views */,
+				E92B3ACE2C47F634006A25C8 /* TableViewAdapters */,
+				E92B3ACD2C47F611006A25C8 /* Sections */,
+				E92B3ACC2C47F5FF006A25C8 /* Cells */,
 				E92B3ABE2C47F542006A25C8 /* Main.storyboard */,
 				E92B3AC12C47F544006A25C8 /* Assets.xcassets */,
 				E92B3AC32C47F544006A25C8 /* LaunchScreen.storyboard */,
 				E92B3AC62C47F544006A25C8 /* Info.plist */,
 			);
 			path = Lesson17HW;
+			sourceTree = "<group>";
+		};
+		E92B3ACC2C47F5FF006A25C8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E92B3AD02C47F693006A25C8 /* CellOne.xib */,
+				E92B3AD22C47F6A3006A25C8 /* CellTwo.xib */,
+				E92B3AD42C47F6B5006A25C8 /* CellZero.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E92B3ACD2C47F611006A25C8 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				E92B3AD62C47F710006A25C8 /* SectionAdapterInput.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		E92B3ACE2C47F634006A25C8 /* TableViewAdapters */ = {
+			isa = PBXGroup;
+			children = (
+				E92B3AD82C47F75F006A25C8 /* TableViewAdapter.swift */,
+				E92B3ADA2C47F782006A25C8 /* TableViewAdapterInput.swift */,
+			);
+			path = TableViewAdapters;
+			sourceTree = "<group>";
+		};
+		E92B3ACF2C47F651006A25C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E92B3ABC2C47F542006A25C8 /* ViewController.swift */,
+				E92B3ADC2C47F7B5006A25C8 /* CellOneViewCell.swift */,
+				E92B3ADE2C47F7C8006A25C8 /* CellTwoViewCell.swift */,
+				E92B3AE02C47F7DA006A25C8 /* CellZeroViewCell.swift */,
+				E92B3AE22C47F7F6006A25C8 /* OneSectionAdapter.swift */,
+				E92B3AE42C47F806006A25C8 /* TwoSectionAdapter.swift */,
+				E92B3AE62C47F820006A25C8 /* ZeroSectionAdapter.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E92B3AE82C47F8E2006A25C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E92B3AE92C47F8FE006A25C8 /* CellOneDisplayModel.swift */,
+				E92B3AEB2C47F90E006A25C8 /* CellTwoDisplayModel.swift */,
+				E92B3AED2C47F920006A25C8 /* CellZeroDisplayModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +212,9 @@
 			files = (
 				E92B3AC22C47F544006A25C8 /* Assets.xcassets in Resources */,
 				E92B3AC52C47F544006A25C8 /* Base in Resources */,
+				E92B3AD12C47F693006A25C8 /* CellOne.xib in Resources */,
+				E92B3AD52C47F6B5006A25C8 /* CellZero.xib in Resources */,
+				E92B3AD32C47F6A3006A25C8 /* CellTwo.xib in Resources */,
 				E92B3AC02C47F542006A25C8 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +226,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92B3AE32C47F7F6006A25C8 /* OneSectionAdapter.swift in Sources */,
+				E92B3AE72C47F820006A25C8 /* ZeroSectionAdapter.swift in Sources */,
+				E92B3AE12C47F7DA006A25C8 /* CellZeroViewCell.swift in Sources */,
 				E92B3ABD2C47F542006A25C8 /* ViewController.swift in Sources */,
+				E92B3ADD2C47F7B5006A25C8 /* CellOneViewCell.swift in Sources */,
 				E92B3AB92C47F542006A25C8 /* AppDelegate.swift in Sources */,
+				E92B3ADB2C47F782006A25C8 /* TableViewAdapterInput.swift in Sources */,
+				E92B3AEC2C47F90E006A25C8 /* CellTwoDisplayModel.swift in Sources */,
+				E92B3AD72C47F710006A25C8 /* SectionAdapterInput.swift in Sources */,
+				E92B3AEA2C47F8FE006A25C8 /* CellOneDisplayModel.swift in Sources */,
+				E92B3ADF2C47F7C8006A25C8 /* CellTwoViewCell.swift in Sources */,
+				E92B3AD92C47F75F006A25C8 /* TableViewAdapter.swift in Sources */,
 				E92B3ABB2C47F542006A25C8 /* SceneDelegate.swift in Sources */,
+				E92B3AEE2C47F920006A25C8 /* CellZeroDisplayModel.swift in Sources */,
+				E92B3AE52C47F806006A25C8 /* TwoSectionAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

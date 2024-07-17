@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct CellOneDisplayModel {
+    
+    var title: String
+    var switcher: Bool
+}
